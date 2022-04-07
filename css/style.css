@@ -5,16 +5,21 @@
   }
   
   body {
-      font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   }
 
+  h1,
+  h2 {
+    font-family:  'Fredoka One', cursive;
+  }
 
 p {
   padding: 20px 0;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 2em 1em;
   }
@@ -61,4 +66,8 @@ p {
   a {
       color: #26C0F4;
       text-decoration: none;
+  }
+
+  .info span {
+      display: block;
   }
