@@ -10,22 +10,13 @@
       font-family: 'M PLUS Rounded 1c', sans-serif;
   }
 
-  
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 1.5rem 0;
-}
 
 p {
   margin-bottom: 1rem;
 }
 
 .container {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 2em 1em;
   }
@@ -54,4 +45,18 @@ p {
   .content {
       background-color: #0F0E17;
       height: 100%;
+      font-size: 13px;
+      color: white;
+      border: 1px solid #E3E3E2;
+  }
+
+  img {
+      height: 100%;
+      float: left;
+      margin-right: 5px;
+  }
+
+  a {
+      color: #26C0F4;
+      text-decoration: none;
   }
