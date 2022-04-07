@@ -5,14 +5,12 @@
   }
   
   body {
-    /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif; */
       font-family: 'M PLUS Rounded 1c', sans-serif;
   }
 
 
 p {
-  margin-bottom: 1rem;
+  padding: 20px 0;
 }
 
 .container {
@@ -47,13 +45,17 @@ p {
       height: 100%;
       font-size: 13px;
       color: white;
-      border: 1px solid #E3E3E2;
+  }
+
+  .info{
+    padding: 5px;
+    height: 100%;
+    overflow: auto;
   }
 
   img {
       height: 100%;
       float: left;
-      margin-right: 5px;
   }
 
   a {
